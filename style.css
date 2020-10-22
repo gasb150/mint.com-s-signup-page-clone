@@ -29,7 +29,9 @@ a{
 }
 
     
-
+button{
+    cursor: pointer;
+}
 
 .signin-button{
     height: 32px;
@@ -38,13 +40,18 @@ a{
     border: black solid 1px;
     border-radius: 5px;  
     color:white;
-    cursor: pointer;
+   
 }
 
+main{
+    justify-content: center;
+    display: flex;
+}
 .white-box{
     background-color: white;
     padding: 3vh;
-    height: 80vh;
+    height: 100vh;
+    display: grid;
 }
 
 
@@ -52,10 +59,11 @@ a{
     border: 2px solid rgb(199, 199, 199);
     margin-left: 25%;
     margin-right: 25%;
+   
      text-align: center;
     display: flex;
-    height: 100vh; 
-    width: 55vh;
+    height: 700px; 
+    width: 380px;
     flex-direction: column;
     
     
@@ -79,30 +87,47 @@ fieldset{
 h1{
     font-weight: 400;
     font-size: 24px;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 h2{
     font-weight: 200;
     font-size: 16px;
+    
 }
 
 .learn-more{
     font-size:14px;
+    
 }
 
 .inputs{
     display: grid;
-    margin-left: 23px;
-    margin-bottom: 20px;   
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    width: 320px; 
+    
+}
+.input-space{
+    margin-top: 4%;
 }
 .call{
-    margin-top: 25px;
+    margin-top: 2px;
     font-size: 11px;
 }
 
 .create-account{
     color: white;
     background-color:rgb(0, 119, 197);
+    height: 44px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 5%;
+    font-size: 17px;
+    width: 320px;
+    margin-left: 3%;
 }
 
 .box-footer{
@@ -118,8 +143,15 @@ ul{
 li{
     margin: 6px;
 }
+.by-clicking{
+    font-size: 12px;
+    padding: 10%;
+}
 .recaptcha{
     text-align: center;
+    margin-top: 3%;
+    font-size: 11px;
+    
 }
 
 footer{
