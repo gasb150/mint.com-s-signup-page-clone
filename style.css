@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin:0.5%;
+    margin-right: 2%;
+}
+.forgot-text{
+font-size: 11px;
+height: 30px;
+}
+
+.sigin-button{
+    height: 32px;
+    width: 90px;
+}
