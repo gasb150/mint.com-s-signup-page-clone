@@ -11,6 +11,7 @@ nav{
     justify-content: flex-end;
     margin:0.5%;
     margin-right: 2%;
+    margin-bottom: 5%;
 }
 .forgot-text{
 font-size: 12.5px;
@@ -27,7 +28,7 @@ a{
     
 
 
-.sigin-button{
+.signin-button{
     height: 32px;
     width: 100px;
     background-color:#3794d1; 
@@ -37,6 +38,29 @@ a{
     cursor: pointer;
 }
 
+
+.white-box{
+    width: 17%;
+    border: 2px solid rgb(199, 199, 199);
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 76vh;
+    justify-content: space-around;
+}
+
+.white-background{
+    background-color: white;
+}
+
+.create-account{
+    color: white;
+    background-color:rgb(0, 119, 197);
+}
 
 
 
@@ -52,6 +76,7 @@ li{
 
 footer{
     text-align: center;
+    
 }
 a.footer-links{
    word-spacing: 23px;
