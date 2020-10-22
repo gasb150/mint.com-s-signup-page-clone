@@ -1,10 +1,13 @@
 *{
     margin:0;
     padding: 0;
-    background-color: #eceef1;
+    
     font-family: 'Nunito', sans-serif;
 }
 
+body{
+    background-color: #eceef1;
+}
 
 nav{
     display: flex;
@@ -38,23 +41,33 @@ a{
     cursor: pointer;
 }
 
-
+.all-box{
+    border: 2px solid rgb(199, 199, 199);
+}
 .white-box{
-    width: 17%;
+   
     border: 2px solid rgb(199, 199, 199);
     background-color: white;
     margin-left: 25%;
     margin-right: 25%;
-    overflow: auto;
-    text-align: center;
-    display: flex;
+     text-align: center;
+    display: block;
     flex-direction: column;
     height: 76vh;
-    justify-content: space-around;
+ 
 }
 
-.white-background{
-    background-color: white;
+fieldset{
+    display: grid;
+    justify-content: left;
+    text-align: left;
+    border: none;
+}
+
+.inputs{
+    display: grid;
+    margin-left: 23px;
+   
 }
 
 .create-account{
@@ -72,6 +85,9 @@ ul{
 }
 li{
     margin: 6px;
+}
+.recaptcha{
+    text-align: center;
 }
 
 footer{
