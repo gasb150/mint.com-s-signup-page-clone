@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding: 0;
+    background-color: #eceef1;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -11,11 +13,64 @@ nav{
     margin-right: 2%;
 }
 .forgot-text{
-font-size: 11px;
+font-size: 12.5px;
 height: 30px;
+margin-right: 10px;
+color:rgb(77, 75, 75)
 }
+
+a{
+    text-decoration: none;
+    color:#0f91c9;
+}
+
+    
+
 
 .sigin-button{
     height: 32px;
-    width: 90px;
+    width: 100px;
+    background-color:#3794d1; 
+    border: black solid 1px;
+    border-radius: 5px;  
+    color:white;
+    cursor: pointer;
+}
+
+
+
+
+
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 6px;
+}
+
+footer{
+    text-align: center;
+}
+a.footer-links{
+   word-spacing: 23px;
+
+}
+.copy-rights{
+    margin-left: 23%;
+    margin-right: 23%;
+    font-size: 12px;
+}
+.privacy{
+font-size: 14px ;
+position: fixed;
+bottom: 0px;
+right: 5%;
+background-color: #6b6c72;
+color:white;
+height: 40px;
+width: 120px;
+border-radius: 5px;
+border: none;
 }
