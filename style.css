@@ -59,14 +59,27 @@ button {
   cursor: pointer;
 }
 
+
+
 .tittle-icons {
   display: flex;
   align-items: flex-end;
-  flex-wrap: nowrap;
   margin-bottom: 1%;
   width: 22%;
   justify-content: space-evenly;
   color: #a4a6aa;
+  height: 25%;
+}
+
+.text1 {
+  position: absolute;
+  left: 43.5%;
+  top: 35.5%
+}
+.text2 {
+  position: absolute;
+  left: 48% ;
+  top: 35.5%
 }
 
 .main-form {
@@ -163,7 +176,7 @@ h2 {
   margin-top: 5%;
   font-size: 17px;
   width: 320px;
-  margin-left: 3%;
+  justify-content: center;
 }
 
 .box-footer {
