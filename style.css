@@ -145,14 +145,15 @@ h2 {
   margin-left: 11px;
 }
 
-.unlock-icon{
+.unlock-icon {
   position: absolute;
-  top:550px;
+  top: 550px;
   left: 800px;
   height: 22px;
   width: 22px;
   color: #9da0a5;
 }
+
 .create-account {
   color: white;
   background-color: rgb(0, 119, 197);
