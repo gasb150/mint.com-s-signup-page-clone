@@ -10,7 +10,7 @@ We made a clone of mint's sign up form using HTML and CSS, the page has a functi
 
 ## Live Demo
 
-[live server](https://raw.githack.com/gasb150/mint.com-s-signup-page-clone/signup-page-clone/index.html)
+[live demo](https://raw.githack.com/gasb150/mint.com-s-signup-page-clone/signup-page-clone/index.html)
 
 ## Built With
 
