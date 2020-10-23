@@ -59,8 +59,6 @@ button {
   cursor: pointer;
 }
 
-
-
 .tittle-icons {
   display: flex;
   align-items: flex-end;
@@ -70,6 +68,7 @@ button {
   color: #a4a6aa;
   height: 25%;
 }
+
 .image-icon {
   display: flex;
 }
