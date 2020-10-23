@@ -1,7 +1,7 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-    
+
     font-family: 'Nunito', sans-serif;
 }
 
@@ -11,67 +11,67 @@ body{
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: flex-end;
-    margin:0.5%;
+    margin: 0.5%;
     margin-right: 2%;
     margin-bottom: 5%;
 }
 
 
-.forgot-text{
-font-size: 12.5px;
-height: 30px;
-margin-right: 10px;
-color:rgb(77, 75, 75)
+.forgot-text {
+    font-size: 12.5px;
+    height: 30px;
+    margin-right: 10px;
+    color: rgb(77, 75, 75)
 }
 
 
-a{
+a {
     text-decoration: none;
-    color:#0f91c9;
+    color: #0f91c9;
 }
 
-    
-button{
+
+button {
     cursor: pointer;
 }
 
 
-.signin-button{
+.signin-button {
     height: 32px;
     width: 100px;
-    background-color:#3794d1; 
+    background-color: #3794d1;
     border: black solid 1px;
-    border-radius: 5px;  
-    color:white;
-   
+    border-radius: 5px;
+    color: white;
+
 }
 
 
-.form-tittle{
+.form-tittle {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-content: center;
-    
+
 }
 
 
-.tittle{
-    margin-left:7%;
+.tittle {
+    margin-left: 7%;
     margin-bottom: 0.3%;
     cursor: pointer;
 }
 
 
-.tittle-icons{
+.tittle-icons {
     display: flex;
     align-items: flex-end;
     flex-wrap: nowrap;
-    margin-bottom: 1%; 
+    margin-bottom: 1%;
     width: 22%;
     justify-content: space-evenly;
     cursor: pointer;
@@ -79,13 +79,13 @@ button{
 }
 
 
-main{
+main {
     justify-content: center;
     display: flex;
 }
 
 
-.white-box{
+.white-box {
     background-color: white;
     padding: 3vh;
     height: 100vh;
@@ -93,22 +93,22 @@ main{
 }
 
 
-.all-box{
+.all-box {
     border: 2px solid rgb(199, 199, 199);
     margin-left: 25%;
     margin-right: 25%;
-   
-     text-align: center;
+
+    text-align: center;
     display: flex;
-    height: 700px; 
+    height: 700px;
     width: 380px;
     flex-direction: column;
-    
-    
+
+
 }
 
 
-fieldset{
+fieldset {
     display: grid;
     justify-content: left;
     text-align: left;
@@ -116,14 +116,14 @@ fieldset{
 }
 
 
-.form-input{
+.form-input {
     height: 200%;
-    
-    
+
+
 }
 
 
-h1{
+h1 {
     font-weight: 400;
     font-size: 24px;
     margin-top: 3%;
@@ -131,49 +131,49 @@ h1{
 }
 
 
-h2{
+h2 {
     font-weight: 200;
     font-size: 16px;
-    
+
 }
 
 
-.learn-more{
-    font-size:14px;
-    
+.learn-more {
+    font-size: 14px;
+
 }
 
 
-.inputs{
+.inputs {
     display: grid;
     margin-left: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;  
-    width: 320px; 
-    
+    margin-top: 10px;
+    width: 320px;
+
 }
 
 
-.input-space{
+.input-space {
     margin-top: 4%;
 }
 
 
-.input-space:focus{
+.input-space:focus {
     box-shadow: 0 0 6px #B1D8F6;
     border: 2px solid #ABD2F0;
 }
 
 
-.call{
+.call {
     margin-top: 2px;
     font-size: 11px;
 }
 
 
-.create-account{
+.create-account {
     color: white;
-    background-color:rgb(0, 119, 197);
+    background-color: rgb(0, 119, 197);
     height: 44px;
     border: none;
     border-radius: 2px;
@@ -184,67 +184,67 @@ h2{
 }
 
 
-.box-footer{
+.box-footer {
     margin-top: 25%;
 }
 
 
-ul{
-    list-style:none;
+ul {
+    list-style: none;
     display: flex;
     justify-content: center;
 }
 
 
-li{
+li {
     margin: 6px;
 }
 
 
-.by-clicking{
+.by-clicking {
     font-size: 12px;
     padding: 10%;
 }
 
 
-.recaptcha{
+.recaptcha {
     text-align: center;
     margin-top: 5%;
     font-size: 11px;
     margin-bottom: 5%;
     color: #9DA0A5;
-    
+
 }
 
 
-footer{
+footer {
     text-align: center;
-    
-}
-
-
-a.footer-links{
-   word-spacing: 23px;
 
 }
 
 
-.copy-rights{
+a.footer-links {
+    word-spacing: 23px;
+
+}
+
+
+.copy-rights {
     margin-left: 23%;
     margin-right: 23%;
     font-size: 12px;
 }
 
 
-.privacy{
-font-size: 14px ;
-position: fixed;
-bottom: 0px;
-right: 5%;
-background-color: #6b6c72;
-color:white;
-height: 40px;
-width: 120px;
-border-radius: 5px;
-border: none;
+.privacy {
+    font-size: 14px;
+    position: fixed;
+    bottom: 0px;
+    right: 5%;
+    background-color: #6b6c72;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
 }
