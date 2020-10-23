@@ -70,16 +70,8 @@ button {
   color: #a4a6aa;
   height: 25%;
 }
-
-.text1 {
-  position: absolute;
-  left: 43.5%;
-  top: 35.5%
-}
-.text2 {
-  position: absolute;
-  left: 48% ;
-  top: 35.5%
+.image-icon {
+  display: flex;
 }
 
 .main-form {
