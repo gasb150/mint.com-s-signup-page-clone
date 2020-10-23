@@ -1,95 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mint's sign up page</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
-            <div class= "forgot-text">
-            <p>
-                Already have an Intuit account?
-            </p>
-            <a href="#" class="a-forgot-text">
-                
-                I forgot my User ID or Password
+            <div class="forgot-text">
+                <p>
+                    Already have an Intuit account?
+                </p>
+                <a href="#" class="a-forgot-text">
+
+                    I forgot my User ID or Password
                 </a>
             </div>
-                <button class="signin-button"> <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>Sign in</button>
+            <button class="signin-button"> <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>Sign
+                in</button>
         </nav>
     </header>
+
+    <section class="form-tittle">
+        <div class="tittle">
+            <img src="./icons/intuit.png" alt="intuit">
+        </div>
+        <div class="tittle-icons">
+            <div class="mint">
+                <img src="./icons/mint.png" alt="mint">
+                mint
+            </div>
+            <div class="qb">
+                <img src="./icons/qb.png" alt="qb">
+                quickbooks
+            </div>
+            <div class="turbotax">
+                <img src="./icons/turbotax.png" alt="turbotax">
+                turbotax
+            </div>
+        </div>
+    </section>
 
 
     <main>
         <div class="all-box">
-        
-        <div class="white-box">
 
-            <h1 class="white-background">Create an Intuit account</h1>
-        <div class=sub-tittle>
-            <h2 class="white-background">One account for everything Intuit, including Mint.</h2>
+            <div class="white-box">
 
-            <a class="white-background" href="#">Learn more</a>
-        </div>
-        <fieldset>
-            <label class="inputs" for="email"> Email address
-                <input class="input-space"  type="email" name="email" id="email">
-            </label>
-            <label class="inputs" for="phone"> Phone (recommended)
-                <input class="input-space type="tel" name="phone" id="phone">
-                <p class="call">Standard call, messaging or data rates may apply.</p>
-            </label>
-        
-            <label class="inputs" for="password"> Password
-                <input class="input-space" type="password" name="password" id="password">
-            </label>
-            <label class="inputs" for="confirm-password"> Confirm password
-                <input class="input-space" type="password" name="confirm-password" id="confirm-password">
-            </label>
-        </fieldset>
-            <button class="create-account"><span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>Create Account </button>   
-            <p class="by-clicking">By clicking Create account, you agree to our
-                <a href="#" class="a-forgot-text">
-                
-                    terms 
+                <h1 class="white-background">Create an Intuit account</h1>
+                <div class=sub-tittle>
+                    <h2 class="white-background">One account for everything Intuit, including Mint.</h2>
+
+                    <a class="white-background" href="#">Learn more</a>
+                </div>
+                <form action="#" method="GET">
+                    <fieldset>
+                        <label class="inputs" for="email"> Email address
+                            <input class="input-space" type="email" name="email" id="email">
+                        </label>
+                        <label class="inputs" for="phone"> Phone (recommended)
+                            <input class="input-space type=" tel" name="phone" id="phone">
+                            <p class="call">Standard call, messaging or data rates may apply.</p>
+                        </label>
+
+                        <label class="inputs" for="password"> Password
+                            <input class="input-space" type="password" name="password" id="password">
+                        </label>
+                        <label class="inputs" for="confirm-password"> Confirm password
+                            <input class="input-space" type="password" name="confirm-password" id="confirm-password">
+                        </label>
+                    </fieldset>
+                    <button class="create-account"><span class="iconify" data-icon="bx:bxs-lock"
+                            data-inline="false"></span>Create Account </button>
+                </form>
+                <p class="by-clicking">By clicking Create account, you agree to our
+                    <a href="#" class="a-forgot-text">
+
+                        terms
                     </a> and have read and acknowledge our <a href="#" class="a-forgot-text">
-                
+
                         Privacy Statement
-                        </a></p>
-                        
-        </div>      
-       <p class="recaptcha"> Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
-       </div>
+                    </a></p>
+
+            </div>
+            <p class="recaptcha"> Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#">Terms of
+                    Use.</a></p>
+        </div>
     </main>
 
 
 
-<footer>
+    <footer>
 
-<div class=footer-links>
-    <ul>
-        <li>
-   <a href="#">Legal</a>    
-</li>
-<li>
-   <a href="#">Privacy</a>
-</li>
-<li>
-   <a href="#">Security</a>
-</li>
-</ul>
-</div>
-<div class=copy-rights>
-   &#169 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-Terms and conditions, features, support, pricing, and service options subject to change without notice.
-</div>
-</footer>
-<button class="privacy">Privacy Settings</button>
+        <div class=footer-links>
+            <ul>
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Security</a>
+                </li>
+            </ul>
+        </div>
+        <div class=copy-rights>
+            &#169 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </div>
+    </footer>
+    <button class="privacy">Privacy Settings</button>
 
 </body>
+
 </html>

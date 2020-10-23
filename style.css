@@ -5,9 +5,11 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
 body{
     background-color: #eceef1;
 }
+
 
 nav{
     display: flex;
@@ -16,12 +18,15 @@ nav{
     margin-right: 2%;
     margin-bottom: 5%;
 }
+
+
 .forgot-text{
 font-size: 12.5px;
 height: 30px;
 margin-right: 10px;
 color:rgb(77, 75, 75)
 }
+
 
 a{
     text-decoration: none;
@@ -33,6 +38,7 @@ button{
     cursor: pointer;
 }
 
+
 .signin-button{
     height: 32px;
     width: 100px;
@@ -43,10 +49,42 @@ button{
    
 }
 
+
+.form-tittle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+
+.tittle{
+    margin-left:7%;
+    margin-bottom: 0.3%;
+    cursor: pointer;
+}
+
+
+.tittle-icons{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    margin-bottom: 1%; 
+    width: 22%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: #A4A6AA;
+}
+
+
 main{
     justify-content: center;
     display: flex;
 }
+
+
 .white-box{
     background-color: white;
     padding: 3vh;
@@ -68,6 +106,7 @@ main{
     
     
 }
+
 
 fieldset{
     display: grid;
@@ -91,16 +130,19 @@ h1{
     margin-bottom: 2%;
 }
 
+
 h2{
     font-weight: 200;
     font-size: 16px;
     
 }
 
+
 .learn-more{
     font-size:14px;
     
 }
+
 
 .inputs{
     display: grid;
@@ -110,13 +152,24 @@ h2{
     width: 320px; 
     
 }
+
+
 .input-space{
     margin-top: 4%;
 }
+
+
+.input-space:focus{
+    box-shadow: 0 0 6px #B1D8F6;
+    border: 2px solid #ABD2F0;
+}
+
+
 .call{
     margin-top: 2px;
     font-size: 11px;
 }
+
 
 .create-account{
     color: white;
@@ -130,6 +183,7 @@ h2{
     margin-left: 3%;
 }
 
+
 .box-footer{
     margin-top: 25%;
 }
@@ -140,33 +194,48 @@ ul{
     display: flex;
     justify-content: center;
 }
+
+
 li{
     margin: 6px;
 }
+
+
 .by-clicking{
     font-size: 12px;
     padding: 10%;
 }
+
+
 .recaptcha{
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 11px;
+    margin-bottom: 5%;
+    color: #9DA0A5;
     
 }
+
 
 footer{
     text-align: center;
     
 }
+
+
 a.footer-links{
    word-spacing: 23px;
 
 }
+
+
 .copy-rights{
     margin-left: 23%;
     margin-right: 23%;
     font-size: 12px;
 }
+
+
 .privacy{
 font-size: 14px ;
 position: fixed;
