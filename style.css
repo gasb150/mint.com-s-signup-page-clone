@@ -28,6 +28,10 @@ a {
   color: #0f91c9;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 button {
   cursor: pointer;
 }
@@ -62,7 +66,6 @@ button {
   margin-bottom: 1%;
   width: 22%;
   justify-content: space-evenly;
-  cursor: pointer;
   color: #a4a6aa;
 }
 
@@ -74,7 +77,6 @@ main {
 .white-box {
   background-color: white;
   padding: 3vh;
-  height: 100vh;
   display: grid;
 }
 
@@ -87,6 +89,7 @@ main {
   height: 700px;
   width: 380px;
   flex-direction: column;
+  padding-bottom: 3%;
 }
 
 fieldset {
@@ -126,6 +129,9 @@ h2 {
 
 .input-space {
   margin-top: 4%;
+  padding-bottom: 5%;
+  border-radius: 4px;
+  border-color: #c1c5c8;
 }
 
 .input-space:focus {
@@ -172,7 +178,7 @@ li {
 
 .recaptcha {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10px;
   font-size: 11px;
   margin-bottom: 5%;
   color: #9da0a5;

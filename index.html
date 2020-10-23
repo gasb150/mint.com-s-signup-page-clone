@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mint's sign up page</title>
     <link rel="stylesheet" href="style.css">
-    <link
+    <link crossorigin="anonymous"
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
 </head>
 
 <body>
@@ -25,13 +25,13 @@
                 </a>
             </div>
 
-            <button type="button" class="signin-button"> <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>Sign
+            <button type="button" class="signin-button pointer"> <span class="iconify" data-icon="bx:bxs-lock" data-inline="false"></span>Sign
                 in</button>
         </nav>
     </header>
 
-    <section class="form-tittle">
-        <div class="tittle">
+    <section class="form-tittle pointer">
+        <div class="tittle ">
             <img src="./icons/intuit.png" alt="intuit">
         </div>
         <div class="tittle-icons">
@@ -79,7 +79,7 @@
                             <input class="input-space" type="password" name="confirm-password" id="confirm-password">
                         </label>
                     </fieldset>
-                    <button type="button" class="create-account"><span class="iconify" data-icon="bx:bxs-lock"
+                    <button type="submit" class="create-account pointer"><span class="iconify" data-icon="bx:bxs-lock"
                             data-inline="false"></span>Create Account </button>
                 </form>
                 <p class="by-clicking">By clicking Create account, you agree to our
@@ -120,8 +120,9 @@
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </div>
     </footer>
-    <button type="button" class="privacy">Privacy Settings</button>
+    <button type="button" class="privacy pointer">Privacy Settings</button>
 
+    
 </body>
-
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </html>

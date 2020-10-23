@@ -8,7 +8,7 @@
 
 We made a clone of mint's sign up form using HTML and CSS, the page has a functional form, a mock navbar section and a mock footer, the page was made with the 1366x768 resolution in mind and might not be responsive in other resolutions.
 
-## Live Server
+## Live Demo
 
 [live server](https://raw.githack.com/gasb150/mint.com-s-signup-page-clone/signup-page-clone/index.html)
 
